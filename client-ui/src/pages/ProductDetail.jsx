@@ -7,6 +7,7 @@ function ProductDetail({ cart, setCart }) {
   // URL se id lena
   const { id } = useParams();
 
+  
   // Matching product dhoondna
   const product = products.find((item) => item.id == id);
 
